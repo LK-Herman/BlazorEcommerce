@@ -35,24 +35,38 @@
     display: flex;
     align-items: flex-start;
     padding: 30px 40px 30px 0px;
-    background: #f4f4f4;
-    border-radius: 10px;
-    box-shadow: 3px 3px 10px #00000050;
+    
+    
 }
 .media-body{
     flex:1;
     
 }
 
+.media-body h4 {
+    
+    margin-bottom: 20px;
+    font-family: Poppins;
+    color: #281356;
+}
+    .media-body h4:hover {
+        color: #9005ef;
+}
+.media-body a {
+    text-decoration: none;
+}
 @media (max-width: 1023.98px){
     .media{
         flex-direction:column;
+        padding: 30px 20px;
     }
     .media-img-wrapper{
         width: 100%;
         height: auto;  
     }
-    .media-body h4{
-        margin-top: 20px;
+    
+    .media-body{
+        padding: 20px 20px;
+        text-align: justify;
     }
 }
