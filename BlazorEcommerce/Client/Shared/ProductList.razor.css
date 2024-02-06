@@ -29,17 +29,7 @@
 }
 
 
-.media {
-    display: flex;
-    align-items: flex-start;
-    padding: 30px 40px 30px 0px;
-    
-    
-}
-.media-body{
-    flex:1;
-    
-}
+
 
 .media-body h4 {
     
